@@ -37,7 +37,7 @@ function get_url(platform)
 end
 
 download_info = Dict(
-    Linux(:aarch64, libc=:glibc) => ("http://osqp-jetson.s3-website.us-east-2.amazonaws.com/osqp-0.6.0-jetsontx2.tar.gz", "19149c1560f9a10b1c0fd6c7c0079a513f31409cd0d11a436e84ab9aa854145e"),
+    Linux(:aarch64, libc=:glibc) => ("http://osqp-jetson.s3-website.us-east-2.amazonaws.com/osqp-0.6.0-jetsontx2.tar.gz", "04d9abc40d987fbd0f2f5a2b128a61d5e6f2be7718bd540a0101b89b788433fe"),
     Linux(:x86_64) => (get_url("linux64"), get_hash_code("linux64")),
     MacOS(:x86_64) => (get_url("mac64"), get_hash_code("mac64")),
     Windows(:x86_64) => (get_url("windows64"), get_hash_code("windows64")),
